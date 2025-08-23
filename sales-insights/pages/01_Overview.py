@@ -4,7 +4,7 @@ import pandas as pd
 # Load dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("data/Sample - Superstore.csv", encoding="latin1")
+    return pd.read_csv("sales-insights/data/Sample - Superstore.csv", encoding="latin1")
 
 df = load_data()
 
