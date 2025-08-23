@@ -8,7 +8,8 @@ st.set_page_config(page_title="Sales Insights", layout="wide")
 st.title("📊 Sales Insights Dashboard")
 
 # Load dataset
-df = pd.read_csv("data/Sample - Superstore.csv", encoding="cp1252")
+df = pd.read_csv("sales-insights/data/Sample - Superstore.csv", encoding="cp1252")
+
 
 
 
